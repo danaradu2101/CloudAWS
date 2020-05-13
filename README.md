@@ -1,13 +1,19 @@
 # Proiect Cloud RADU DANIELA - SIMPRE - AN 1
 
+Descrierea problemei
+	Aplicatia creata poata fi accesata de utilizator prin intermediul unei pagini web, unde acesta poate gasi informatii atunci cand doreste sa gaseasca un exemplu de text, un exemplu de poza sau o gluma buna din diferite categorii.
 
-Aplicatia reprezinta doua exemple de implementare a utilizarii de API-uri externe folosind fetch-ul. 
+Flux de date
+	Datele sunt in format JSON si publicate in cele doua API-uri predefinite si utilizate, acestea sunt accesate prin endpoint-urile disponibile ale API-urilor. Mai departe, in cadrul aplicatiei, datele sunt apelate si manipulate in fisierul index.html.
+  
+Descriere API
+  Aplicatia reprezinta doua exemple de implementare a utilizarii de API-uri externe folosind fetch-ul. 
 
-Ca si prim API-uri am folosit https://jsonplaceholder.typicode.com care dispune de mai multe rute de navigare
+  Ca si prim API-uri am folosit https://jsonplaceholder.typicode.com care dispune de mai multe rute de navigare
 din care printr-un GET putem aduce in aplicatie useri, url-uri de potografii, postari ale site-uri,
 dar si prin creearea unui POST putem trimite si inregistra o noua postare.
 
-Al doilea API folosit este https://sv443.net/jokeapi/v2/joke/Any, in care prin apasarea butonului "Get a random joke" se apeleaza un GET care aduce in aplicatie o gluma. 
+  Al doilea API folosit este https://sv443.net/jokeapi/v2/joke/Any, in care prin apasarea butonului "Get a random joke" se apeleaza un GET care aduce in aplicatie o gluma. 
 
 Aplicatia este formata din trei butoane si un form
 1.Butonul 'Get Photo Links' care apeleaza un GET catre https://jsonplaceholder.typicode.com/photos si aduce in pagina toate url-urile de poze existente in jsonplaceholder
