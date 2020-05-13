@@ -6,8 +6,7 @@ Descrierea problemei
 Flux de date
 	Datele sunt in format JSON si publicate in cele doua API-uri predefinite si utilizate, acestea sunt accesate prin endpoint-urile disponibile ale API-urilor. Mai departe, in cadrul aplicatiei, datele sunt apelate si manipulate in fisierul index.html.
 	
-	![](https://raw.githubusercontent.com/danaradu2101/CloudAWS/master/Capture2.PNG)
-	
+![print1](https://raw.githubusercontent.com/danaradu2101/CloudAWS/master/Capture2.PNG)	
   
 Descriere API
   Aplicatia reprezinta doua exemple de implementare a utilizarii de API-uri externe folosind fetch-ul. 
@@ -25,7 +24,7 @@ Aplicatia este formata din trei butoane si un form
 4.Formularul care contine doua inpururi, unul pentru title si celalalt pentru body si un buton 'Submit a post in jsonplaceholder' care trimite catre API o noua inregistrare care se poate vedea in consola
 (se apasa F12 in aplicatie pentru a se deschide consola inainte de a se apasa buronul, iar dupa fiecare click se afiseaza in consola postarea trimisa)
 
-  ![print1](https://raw.githubusercontent.com/danaradu2101/CloudAWS/master/Capture2.PNG)
+![print](https://raw.githubusercontent.com/danaradu2101/CloudAWS/master/Capture.PNG)	
 
 Exemplu de metoda HTTP:
   fetch('https://jsonplaceholder.typicode.com/posts', {
